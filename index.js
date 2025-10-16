@@ -6,7 +6,7 @@ app.use(express.json());
 
 // ✅ Replace with your values
 const VERIFY_TOKEN = "meta-n8n-verify";
-const N8N_WEBHOOK_URL = "https://paramathma.app.n8n.cloud/webhook/meta-leads";
+const N8N_WEBHOOK_URL = "https://paramathma.app.n8n.cloud/webhook-test/meta-ads-leads";
 
 // 🔹 Meta verification
 app.get("/meta-verify", (req, res) => {
